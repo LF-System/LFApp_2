@@ -1,0 +1,27 @@
+.unit-page-title {
+  @apply text-2xl font-medium;  
+}
+
+.unit-page-table {
+  @apply min-w-full table-auto;  
+}
+
+.unit-page-table-panel {
+  @apply overflow-x-auto;
+}
+
+.unit-page-table-thead-tr-th {
+  @apply px-4 py-2 border-b-2 border-gray-300 text-left;
+}
+
+.unit-page-table-tbody-tr {
+  @apply bg-gray-100
+}
+
+.unit-page-table-tbody-tr-td {
+  @apply border px-4 py-2;
+}
+
+.unit-page-table-tbody-tr-td-button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}

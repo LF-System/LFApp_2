@@ -1,0 +1,1 @@
+export const resource = "/stock/units";
